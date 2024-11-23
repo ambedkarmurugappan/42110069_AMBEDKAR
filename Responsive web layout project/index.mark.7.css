@@ -1,0 +1,136 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.city{
+    background-color: bisque;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 250px auto;
+    grid-template-rows: 120px auto 100px ;
+}
+
+
+
+.box1{
+    background-color: rgb(129, 129, 129);
+    text-decoration: dashed;
+    color: azure;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex; 
+    justify-content: center;
+    padding-top: 25px;
+}
+.box3
+{
+    background-color: antiquewhite;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.box3>p {
+    padding: 10px;
+    margin-left: 50px;
+}
+.box4
+{
+    background-color: rgb(76, 76, 76);
+    color: antiquewhite;
+    grid-column-start: 4;
+    grid-column-end: 1;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.box2{
+    background-color: rgb(170, 170, 247);
+    padding: 10px;
+}
+.box2 >p
+{
+    font-size: large;
+    padding: 10px;
+}
+.box2>p>a{
+    text-decoration: dashed;
+    text-decoration-color: red;
+    color: black;
+}
+
+.box31{
+    
+    
+    padding: 20px;
+    
+    
+}
+@media only screen and (max-width: 500px){
+
+    .city{
+        background-color: bisque;
+        height: 25vh;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 100% 100% auto 80px ;
+    }
+    
+    
+    
+    .box1{
+        background-color: rgb(129, 129, 129);
+        text-decoration: dashed;
+        color: azure;
+        grid-column: 1/2;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-top: 70px;
+    }
+    .box3
+    {
+        background-color: antiquewhite;
+        grid-column: 1/2;
+    }
+    .box3>p {
+        padding: 10px;
+        margin-left: 50px;
+    }
+    .box4
+    {
+        background-color: rgb(76, 76, 76);
+        color: antiquewhite;
+        grid-column: 1/2;
+        display: flex;
+        justify-content: center;
+        padding-top: 25px;
+    }
+    
+    .box2{
+        background-color: rgb(170, 170, 247);
+        padding: 10px;
+        grid-column: 1/2;
+    }
+    .box2 >p
+    {
+        font-size: large;
+        padding: 10px;
+    }
+    .box2>p>a{
+        text-decoration: dashed;
+        text-decoration-color: red;
+        color: black;
+    }
+    
+    .box31{
+        
+        
+        padding: 20px;
+        
+        
+    }
+
+
+}
